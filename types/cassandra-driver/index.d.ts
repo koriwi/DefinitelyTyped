@@ -946,7 +946,7 @@ export namespace mapping {
   }
 
   interface ModelOptions {
-    tables?: string[] | ModelTables[];
+    tables?: Array<string, ModelTables>;
     mappings?: TableMappings;
     columns?: { [key: string]: string };
     keyspace?: string;
